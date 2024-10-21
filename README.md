@@ -6,7 +6,7 @@ SSC-Join is based on a novel filtering and verification framework to efficiently
 - Clone the repository onto your local machine.
 - Download anaconda4.10.1.
 
-- ## Usage
+## Usage
 >For SSC-Join
 ```bash
 Give the path to docs and tax.
@@ -26,12 +26,19 @@ Use Docs class method sort_by_length on Docs class objects for length descending
 Use the Docs class method sort_by_frequency for frequency descending on Docs class objects.
 Run AdaptJoin using Docs class object with docs_int, Taxonomy class object, set semantic similarity threshold, and optimal parameter τ.
 ```
-- ## data
+## data
 1.fish_tax.txt  --Taxonomy1:FISH
+
 2.fish_data_new2.txt  --dataset1:FISH
+
 3.ohsumed_tax.txt  --Taxonomy2:MeSH
+
 4.ohsumed_new.txt  --dataset2:OHSUMED
+
 5.ohdsumed_new_10w.txt  --Small OHSUMED in comparison with state-of-the-art algorithms.
+
 6.semantic_level_tree_new.txt  --Taxonomy3:DBLP
+
 7.title_clean_new.txt  --dataset3:DBLP
+
 8.title_clean_new_10w.txt  --Small DBLP in comparison with state-of-the-art algorithms.
